@@ -12,7 +12,10 @@ figcaption {
   position: absolute;
   width: 100%;
 }
-
+h1 {
+  
+  
+}
 {
   box-sizing: border-box;
   font-family: "Saira Extra Condensed", sans-serif;
