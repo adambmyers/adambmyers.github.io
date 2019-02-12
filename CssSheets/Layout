@@ -5,22 +5,8 @@ figure {
   position: relative;
 }
 
-figcaption {
-  background color rgba(0,0,0,0.5);
-  bottom: 0.5rem;
-  color: white;
-  position: absolute;
-  width: 100%;
-}
-h1 {
-  
-  
-}
-{
-  box-sizing: border-box;
-  font-family: "Saira Extra Condensed", sans-serif;
-  margin: 0;
-  padding: 0;
+
+h1 { 
 }
 
 h2 {
@@ -34,4 +20,17 @@ h2 {
 
 img {
   width:100%;
+}
+{
+  box-sizing: border-box;
+  font-family: "Saira Extra Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  background color rgba(0,0,0,0.5);
+  bottom: 0.5rem;
+  color: white;
+  position: absolute;
+  width: 100%;
 }
