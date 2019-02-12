@@ -1,0 +1,36 @@
+html {
+  font-size: 8px;
+}
+figure {
+  position: relative;
+}
+
+
+h1 { 
+}
+
+h2 {
+  background-color: green;
+  color: yellow;
+}
+
+#cat {
+  
+}
+
+img {
+  width:100%;
+}
+{
+  box-sizing: border-box;
+  font-family: "Saira Extra Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  background color rgba(0,0,0,0.5);
+  bottom: 0.5rem;
+  color: white;
+  position: absolute;
+  width: 100%;
+}
