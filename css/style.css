@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+		padding: 0;
+}
+a {
+	text-decoration: none;
+}
+html{
+	font: 20px/1.618 Garamond, Cambria, sans-serif;
+}
+:root{
+	--primary-color: rgb(116, 110, 110);
+	--secondary-color: rgb(224, 222, 220);
+	--tertiary-color: rgb(233, 114, 93);
+}
+.main-header {
+	border: 2px solid black;	
+	position: center;
+	background-color:rgb(233, 114, 93);
+		
+}
+.top-header {
+	color:  rgb(224, 222, 220);
+	text-align: center;
+	font-size: 80px;
+	padding-right: 50px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.intro-statement {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.nav-tools {
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	background-color:rgb(116, 110, 110);
+	text-align: center;
+}
+
+li {
+	color: #FFF;
+	font-size: 22px;
+	display: inline-block;
+	width: 250px;
+	text-transform: uppercase;
+	margin: 10px auto;
+}
+
+.grid1{
+	display: grid;
+	grid-gap: 5px 5px;
+	grid-template-columns: repeat(4, 1fr); 
+	grid-template-rows: repeat(4, 1fr); 
+	margin: 2rem auto;
+	max-width: 1300px;	
+	height: 750px;
+}
+
+.boxa1 {
+	grid-row: 1 / span 2;
+	border-radius: 15px;
+}
+
+.headshot {
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+}
+
+.boxa2 {
+	grid-column: 2 / span 3;
+	background-color:  rgb(224, 222, 220);
+	font-size: 1rem;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.boxa3 {
+	grid-column: 2 / span 2;
+	background-color: rgb(233, 114, 93);
+	text-align: center;
+	font-size: 2rem;
+}
+
+.boxa5 {
+	grid-column: 4 / span 1;
+	background-color: rgb(233, 114, 93);
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 1rem;
+}
+
+.boxa4 {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row-start: 3;
+	grid-row-end:5;
+	grid-column: 1 / span 4;
+	padding-top: 3rem;
+	/* grid-row-end: 6; */
+	background-color: rgb(116, 110, 110);
+	border-radius: 15px;
+}
+
+.grid2{
+	display: grid;
+	grid-gap: 5px 5px;
+	grid-template-columns: repeat(6, 1fr); 
+	grid-template-rows: repeat(12, 1fr); 
+	margin: 2rem auto;
+	max-width: 1300px;
+	height: 1500px;
+}
+
+.boxb1 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	background-color:rgb(233, 114, 93);
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 3rem;
+}
+
+.boxb2 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 4;
+	grid-column-end: 7;
+	background-color:rgb(233, 114, 93);
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 3rem;
+}
+
+.VPSS {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.VP{
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+}
+
+.boxb4 {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	background-color:rgb(224, 222, 220);
+	color: rgb(116, 110, 110);
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.HHSS {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+
+.HH {
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+}
+
+.boxb6 {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	background-color: rgb(224, 222, 220);
+	color: rgb(116, 110, 110);
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 3rem;
+}
+
+.boxb7 {
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	background-color: rgb(116, 110, 110);
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	border-radius: 15px;
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.boxb8 {
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 4;
+	grid-column-end: 7;
+	background-color: rgb(116, 110, 110);
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	border-radius: 15px;
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.boxb9 {
+	grid-row-start: 6;
+	grid-row-end: 8;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	background-color:rgb(233, 114, 93);
+	color: rgb(224, 222, 220);
+	font-size: 2rem;
+	text-align: center;
+	padding: 30px;
+	border-radius: 15px;
+	padding-top: 4rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+h3 {
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+
+
+
+
