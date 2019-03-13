@@ -1,0 +1,115 @@
+.grid1 {
+	display: grid;
+	grid-gap: .5rem;
+	grid-template-columns: repeat(6, 1fr); 
+	grid-template-rows: repeat(6, 1fr); 
+	margin: 2rem auto;
+	padding: 2rem auto;
+	max-width: 1300px;	
+	height: 1100px;
+}
+.background {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row: 1 /span 2;
+	grid-column: 1 / span 6;
+	background-color: rgb(116, 110, 110);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.trivia {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row: 3 /span 1;
+	grid-column: 1 / span 6;
+	background-color: rgb(116, 110, 110);
+    border-radius: 15px;
+    padding: 1rem;
+	margin: 1rem;
+}
+
+.resort {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row: 4 /span 1;
+	grid-column: 2 / span 4;
+	background-color: rgb(116, 110, 110);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.modal-display-box{
+	text-align: center;
+	grid-row: 5 /span 1;
+	grid-column: 2 / span 4;
+	
+}
+.GW, .CB, .KR, .MS {
+	display: inline-block;
+	height: 7rem;
+	width: 7rem;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.5);
+}
+
+.footerContainer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	justify-content: center;
+	color: rgb(255, 255, 255);
+	background-color:rgb(116, 110, 110);
+	text-align: center;
+	height: 100px;
+}
+button {
+	text-decoration: none;
+	background-color:rgb(116, 110, 110);
+	font-size: 20px;
+	font:  rgb(255, 255, 255);
+	padding: 7px 24px;
+	border-radius: 8px;
+}
+
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
